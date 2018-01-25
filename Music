@@ -1,4 +1,12 @@
+var bot = require("discord-music-bot");
 
+var serverName = "Dino Fam";
+var textChannelName = "music";
+var voiceChannelName = "αℓρнα  1(General Chat)";
+var aliasesFile = "A file the bot will use to store your aliases";
+var botToken = "Your bot token here";
+
+bot.run(serverName, textChannelName, voiceChannelName, aliasesFile, botToken);
 const Discord = require("discord.js");
 const fs = require("fs");
 const ytdl = require("ytdl-core");
